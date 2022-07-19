@@ -1,11 +1,5 @@
-import { RicardoCard } from "./components/ricardo";
-
 function App() {
-  return (
-    <div className="App">
-      <RicardoCard />
-    </div>
-  );
+  return <div className="App"></div>;
 }
 
 export default App;
