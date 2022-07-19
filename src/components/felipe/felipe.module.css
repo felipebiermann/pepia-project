@@ -1,0 +1,33 @@
+.borda {
+  position: absolute;
+  width: 170px;
+  height: 124px;
+  left: 0px;
+  top: 0px;
+
+  background: #4d3c33;
+  border-radius: 9px;
+}
+
+.texto {
+  color: white;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: -0.0008em;
+  text-align: left;
+  position: absolute;
+  width: 150px;
+  height: 54px;
+  left: 10px;
+  top: 7px;
+}
+
+.lupa {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  left: 117px;
+  top: 68px;
+}
