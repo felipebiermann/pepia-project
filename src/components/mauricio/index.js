@@ -6,7 +6,7 @@ export function MauricioComponent() {
     <>
       <div className={style.container}>
         <img src={logo} alt="logo" className={style.logo} />
-        <h1 className={style.text}>Olá, Juliana!</h1>
+        <p className={style.text}><strong>Olá, Juliana!</strong></p>
       </div>
     </>
   );

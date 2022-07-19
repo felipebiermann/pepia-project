@@ -1,0 +1,88 @@
+/* @media only screen 
+and (device-width: 390px) 
+and (device-height: 926px) 
+and (-webkit-device-pixel-ratio: 3) {  */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Kalam&display=swap');
+
+.container {
+position: relative;
+width: 349px;
+height: 124px;
+/* left: 20px; */
+margin-left: 20px;
+margin-top: 2px;
+right: 21px;
+top: 18px;
+border-radius: 9px;
+background: #CF8F45;
+}
+
+.text {
+position: absolute;
+width: 281px;
+height: 54px;
+left: 12px;
+right: 56px;
+top: 20px;
+bottom: 15px;
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 18px;
+letter-spacing: -0.0008em;
+color: #FFF8F8;
+}
+
+.time {
+position: absolute;
+width: 245px;
+height: 18px;
+left: 12px;
+right: 13px;
+top: 65px;    
+bottom: 6px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+letter-spacing: -0.0008em;
+color: #FFF8F8;
+}
+
+.happy {
+    position: absolute;
+    width: 45px;
+    height: 18px;
+    left: 255px;
+    right: 13px;
+    top: 10px;    
+    bottom: 6px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.0008em;
+    color: #FFF8F8;
+    }
+
+    .minutes {
+        position: absolute;
+        width: 245px;
+        height: 18px;
+        left: 280px;
+        right: 13px;
+        top: 90px;    
+        bottom: 6px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: -0.0008em;
+        color: #FFF8F8;
+        }
