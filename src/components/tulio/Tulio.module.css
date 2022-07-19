@@ -1,0 +1,30 @@
+.card {
+  position: absolute;
+  width: 164px;
+  height: 124px;
+  left: 0px;
+  top: 18px;
+  background: #8c8d62;
+  border-radius: 9px;
+}
+.cardText {
+  position: absolute;
+  width: 150px;
+  height: 67px;
+  left: 8px;
+  top: -7px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 18px;
+  letter-spacing: -0.0008em;
+  color: #fff8f8;
+}
+.cardImg {
+  position: absolute;
+  width: 104px;
+  height: 78.79px;
+  left: 58px;
+  top: 45px;
+}
