@@ -36,6 +36,7 @@ export function CarouselComponent() {
             >
               <img src={image1} alt="O que é Psicologia" />
               <h3>O que é Psicologia</h3>
+              <p>por Pepia App</p>
             </a>
           </div>
           <div>
@@ -46,6 +47,7 @@ export function CarouselComponent() {
             >
               <img src={image2} alt="Crise de Ansiedade" />
               <h3>Crise de Ansiedade</h3>
+              <p>por Pepia App</p>
             </a>
           </div>
           <div>
@@ -56,6 +58,7 @@ export function CarouselComponent() {
             >
               <img src={image3} alt="Será que estou com depressão?" />
               <h3>Será que estou com depressão?</h3>
+              <p>por Pepia App</p>
             </a>
           </div>
         </div>
