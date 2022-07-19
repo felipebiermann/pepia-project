@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+  width: 188px;
+  height: 54.61px;
+}
+
+.logo {
+  position: absolute;
+  width: 54px;
+  height: 54.61px;
+}
+
+.text {
+  position: absolute;
+  width: 120px;
+  height: 18px;
+  left: 75px;
+  top: 12px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 18px;
+  letter-spacing: -0.0008em;
+  color: #000000;
+}
