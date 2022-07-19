@@ -1,0 +1,53 @@
+.border {
+  position: absolute;
+  width: 349px;
+  height: 178px;
+  left: 0px;
+  top: 74.61px;
+  border-radius: 9px;
+  background-image: url(../../assets/images/bem-vinde-img.png);
+}
+
+.text1 {
+  position: absolute;
+  width: 139px;
+  height: 18px;
+  left: 50%;
+  top: 25%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: -0.0008em;
+  color: #fff8f8;
+  backdrop-filter: blur(4px);
+}
+
+.text2 {
+  position: absolute;
+  width: 171px;
+  height: 56px;
+  left: 187px;
+  top: 55%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.0008em;
+  color: #fff8f8;
+}
+
+.image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 349px;
+  height: 178px;
+  left: 0px;
+  top: 74.61px;
+  border-radius: 9px;
+}
