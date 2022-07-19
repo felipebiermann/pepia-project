@@ -24,7 +24,10 @@ export function CarouselComponent() {
         <div>
           <h2>Veja também:</h2>
         </div>
-        <div className="d-flex flex-row flex-nowrap overflow-auto gap-5">
+        <div
+          className="d-flex flex-row flex-nowrap overflow-auto gap-5"
+          style={{ "overflow-x": "hidden" }}
+        >
           <div>
             <a
               href="/"
@@ -33,6 +36,7 @@ export function CarouselComponent() {
             >
               <img src={image1} alt="O que é Psicologia" />
               <h3>O que é Psicologia</h3>
+              <p>por Pepia App</p>
             </a>
           </div>
           <div>
@@ -43,6 +47,7 @@ export function CarouselComponent() {
             >
               <img src={image2} alt="Crise de Ansiedade" />
               <h3>Crise de Ansiedade</h3>
+              <p>por Pepia App</p>
             </a>
           </div>
           <div>
@@ -53,6 +58,7 @@ export function CarouselComponent() {
             >
               <img src={image3} alt="Será que estou com depressão?" />
               <h3>Será que estou com depressão?</h3>
+              <p>por Pepia App</p>
             </a>
           </div>
         </div>
