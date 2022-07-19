@@ -6,10 +6,10 @@ export function RicardoCard() {
     <>
       <div className={styles.border}>
         <div className={styles.text1}>
-          <h2>Seja bem-vinde!</h2>
+          <p>Seja bem-vinde!</p>
         </div>
         <div className={styles.text2}>
-          <h3>Clique aqui para saber um pouco mais sobre o app.</h3>
+          <p>Clique aqui para saber um pouco mais sobre o app.</p>
         </div>
       </div>
     </>
