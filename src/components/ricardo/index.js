@@ -4,13 +4,13 @@ import { Toaster, toast } from "react-hot-toast";
 
 export function RicardoCard() {
   function ToastMais() {
-    toast.success("Para Saiba Mais", { position: "top-center" });
+    toast.success("Para Saber Mais", { position: "top-center" });
   }
 
   return (
-    <>
-      <Toaster />
-      <div className={styles.border}>
+    <div>
+      <div className={styles.border} onClick={ToastMais}>
+        <Toaster />
         <div className={styles.text1}>
           <p>Seja bem-vinde!</p>
         </div>
@@ -18,6 +18,6 @@ export function RicardoCard() {
           <p>Clique aqui para saber um pouco mais sobre o app.</p>
         </div>
       </div>
-    </>
+    </div>
   );
 }

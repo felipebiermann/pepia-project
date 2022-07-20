@@ -5,7 +5,7 @@ import happy from "../../assets/images/Happy.svg"
 
 export function Adriano(){
     function ToastDass(){
-        toast.success("Ir para tela do teste Humor", { position: "bottom-center" });    
+        toast.success("Ir para tela de humor", { position: "top-center" });    
     }
     return(        
             <div className={styles.container} onClick={ToastDass}>

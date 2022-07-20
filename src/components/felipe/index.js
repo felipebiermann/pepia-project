@@ -10,13 +10,13 @@ export function FelipeCard() {
   return (
     <>
       <Toaster />
-      <div className={style.borda}>
+      <div className={style.borda} onClick={ToastLupa}>
         <span className={style.texto}>
           {" "}
           Encontre sua psicóloga(o) perfeita!
         </span>
-        <div onClick={ToastLupa}>
-          <img className={style.lupa} src={Lupa} />
+        <div>
+          <img className={style.lupa} src={Lupa} alt="lupa" />
         </div>
       </div>
     </>

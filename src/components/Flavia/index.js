@@ -4,7 +4,7 @@ import { Toaster, toast } from "react-hot-toast";
 
 export function Flavia(){
     function ToastDass(){
-        toast.success("Ir para tela do teste DASS", { position: "bottom-center" });    
+        toast.success("Ir para tela do teste DASS", { position: "top-center" });    
     }
     return(        
             <div className={styles.container} onClick={ToastDass}>
