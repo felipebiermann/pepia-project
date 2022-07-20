@@ -25,8 +25,16 @@ export function CarouselComponent() {
           <h2>Veja também:</h2>
         </div>
         <div
-          className="d-flex flex-row flex-nowrap overflow-auto gap-5"
-          style={{ "overflow-x": "hidden" }}
+          // className="d-flex flex-row flex-nowrap overflow-auto gap-5"
+          // style={{ "overflow-x": "hidden" }}
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            flex: "nowrap",
+            overflow: "auto",
+            overflowX: "hidden",
+            gap: "5px",
+          }}
         >
           <div>
             <a
