@@ -1,4 +1,4 @@
-import style from "./tulio.module.css";
+import style from "./Tulio.module.css";
 import dicasImg from "../../assets/images/dicas-img.png";
 import { Toaster, toast } from "react-hot-toast";
 
