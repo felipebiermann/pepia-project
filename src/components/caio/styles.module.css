@@ -1,13 +1,14 @@
 .carouselContainer {
   /* position: absolute; */
-  /* margin-left: 20px; */
-  /* margin-right: 20px; */
+  /* margin-left: 20px;
+  margin-right: 20px; */
   /* width: 390px; */
-  /* margin-top: 11px; */
+  margin-top: 30px;
+  margin-bottom: auto;
 }
 
 .carouselContainer h2 {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -37,8 +38,22 @@
 
   /* padding-top: 5px; */
 }
+.carouselContainer p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 8px;
+  /* identical to box height, or 68% */
+
+  text-align: center;
+  letter-spacing: -0.0008em;
+
+  color: #4d3c33;
+}
 
 .carouselContainer img {
+  margin-top: -20px;
   width: 127px;
   height: 172px;
 }

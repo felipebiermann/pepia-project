@@ -1,5 +1,4 @@
 import styles from "./index.module.css";
-import backimage from "../../assets/images/bem-vinde-img.png";
 import { Toaster, toast } from "react-hot-toast";
 
 export function RicardoCard() {
