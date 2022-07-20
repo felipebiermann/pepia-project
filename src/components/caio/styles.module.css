@@ -3,7 +3,7 @@
   /* margin-left: 20px;
   margin-right: 20px; */
   /* width: 390px; */
-  margin-top: 35px;
+  margin-top: 30px;
   margin-bottom: auto;
 }
 
@@ -53,6 +53,7 @@
 }
 
 .carouselContainer img {
+  margin-top: -20px;
   width: 127px;
   height: 172px;
 }
