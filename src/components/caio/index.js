@@ -65,7 +65,7 @@ export function CarouselComponent() {
                 alt="Será que estou com depressão?"
                 onClick={depressaoToast}
               />
-              <h3>Será que estou com depressão?</h3>
+              <h3>Será que estou<br/>com depressão?</h3>
               <p>por Pepia App</p>
             </a>
           </div>
