@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Roboto:wght@100;400&display=swap');
 .carouselContainer {
   /* position: absolute; */
   /* margin-left: 20px;
@@ -23,23 +24,23 @@
 }
 
 .carouselContainer h3 {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+  font-style: bold;
+  font-weight: 600;
+  font-size: 14px;
   line-height: 15px;
   /* or 115% */
 
   text-align: center;
   letter-spacing: -0.0008em;
 
-  margin-top: -7px;
+  margin-top: 5px;
   color: #4d3c33;
 
   /* padding-top: 5px; */
 }
 .carouselContainer p {
-  font-family: "Roboto";
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 11px;
@@ -53,7 +54,7 @@
 }
 
 .carouselContainer img {
-  margin-top: -20px;
+  /* margin-top: -20px; */
   width: 127px;
-  height: 172px;
+  height: 130px;
 }
