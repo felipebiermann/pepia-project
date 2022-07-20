@@ -1,14 +1,15 @@
 .footer {
-  position: relative;
-  top: -57px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  /* right: 20px; */
   background-color: #8c8d62;
   display: flex;
   justify-content: space-around;
   height: 57px;
-  align-items: center;
   width: 390px;
+  align-items: center;
 }
-
 .singleblock {
   display: flex;
   flex-direction: column;
