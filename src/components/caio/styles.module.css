@@ -34,7 +34,7 @@
   text-align: center;
   letter-spacing: -0.0008em;
 
-  margin-top: -15px;
+  margin-top: 5px;
   color: #4d3c33;
 
   /* padding-top: 5px; */
@@ -54,7 +54,7 @@
 }
 
 .carouselContainer img {
-  margin-top: -20px;
+  /* margin-top: -20px; */
   width: 127px;
-  height: 172px;
+  height: 130px;
 }
