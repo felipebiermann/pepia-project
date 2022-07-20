@@ -13,8 +13,8 @@ import { Adriano } from "./components/adriano/index";
 
 function App() {
   return (
-    <div className="">
-      <div className="container">
+    <div className="container">
+      <div>
         <MauricioComponent />
         <RicardoCard />
         <Flavia />

@@ -72,7 +72,7 @@ color: #FFF8F8;
 
     .minutes {
         position: absolute;
-        width: 245px;
+        /* width: 245px; */
         height: 18px;
         left: 280px;
         right: 13px;

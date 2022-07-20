@@ -1,17 +1,26 @@
 .footer {
+<<<<<<< HEAD
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  /* right: 20px; */
+=======
   /* position: relative; */
   /* top: -57px; */
+>>>>>>> 4f00481fab61f13ccaf45886a9b90dc333249515
   background-color: #8c8d62;
   display: flex;
   justify-content: space-around;
   height: 57px;
-  align-items: center;
   width: 390px;
+<<<<<<< HEAD
+  align-items: center;
+=======
   overflow: hidden;
   position: fixed;
   bottom: 0;
+>>>>>>> 4f00481fab61f13ccaf45886a9b90dc333249515
 }
-
 .singleblock {
   display: flex;
   flex-direction: column;
