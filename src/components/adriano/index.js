@@ -12,7 +12,7 @@ export function Adriano(){
                 <Toaster />
                 <div className={styles.text}>Como você está se<br/> sentindo hoje?</div>
                 <div className={styles.time}>Preencha seu monitoramento de humor.</div>
-                <div className={styles.happy}><img src={happy} /></div>
+                <div className={styles.happy}><img src={happy} alt="happy" /></div>
                 <div className={styles.minutes}>2 Min.</div>
             </div>
             )
