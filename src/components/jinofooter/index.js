@@ -8,19 +8,19 @@ import { Toaster, toast } from "react-hot-toast";
 
 export function Footer() {
   function ToastHome() {
-    toast.success("Para home", { position: "bottom-center" });
+    toast.success("Para home", { position: "top-center" });
   }
   function ToastSearch() {
-    toast.success("Para searchbar", { position: "bottom-center" });
+    toast.success("Para searchbar", { position: "top-center" });
   }
   function ToastHumor() {
-    toast.success("Para humor", { position: "bottom-center" });
+    toast.success("Para humor", { position: "top-center" });
   }
   function ToastMessage() {
-    toast.success("Para messages", { position: "bottom-center" });
+    toast.success("Para messages", { position: "top-center" });
   }
   function ToastProfile() {
-    toast.success("Para profile", { position: "bottom-center" });
+    toast.success("Para profile", { position: "top-center" });
   }
 
   return (
