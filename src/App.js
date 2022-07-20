@@ -22,7 +22,7 @@ function App() {
           <TulioCard />
           <FelipeCard />
         </div>
-        <Adriano/>
+        <Adriano />
         <CarouselComponent />
       </div>
       <Footer />

@@ -32,39 +32,39 @@ export function CarouselComponent() {
             flexDirection: "row",
             flex: "nowrap",
             overflow: "auto",
-            overflowX: "hidden",
-            gap: "5px",
+            // overflowX: "hidden",
+            gap: "10px",
           }}
         >
           <div>
-            <a
-              href="/"
-              onClick={psicologiaToast}
-              style={{ textDecoration: "none" }}
-            >
-              <img src={image1} alt="O que é Psicologia" />
+            <a href="/" style={{ textDecoration: "none" }}>
+              <img
+                src={image1}
+                alt="O que é Psicologia"
+                onClick={psicologiaToast}
+              />
               <h3>O que é Psicologia</h3>
               <p>por Pepia App</p>
             </a>
           </div>
           <div>
-            <a
-              href="/"
-              onClick={ansiedadeToast}
-              style={{ textDecoration: "none" }}
-            >
-              <img src={image2} alt="Crise de Ansiedade" />
+            <a href="/" style={{ textDecoration: "none" }}>
+              <img
+                src={image2}
+                alt="Crise de Ansiedade"
+                onClick={ansiedadeToast}
+              />
               <h3>Crise de Ansiedade</h3>
               <p>por Pepia App</p>
             </a>
           </div>
           <div>
-            <a
-              href="/"
-              onClick={depressaoToast}
-              style={{ textDecoration: "none" }}
-            >
-              <img src={image3} alt="Será que estou com depressão?" />
+            <a href="/" style={{ textDecoration: "none" }}>
+              <img
+                src={image3}
+                alt="Será que estou com depressão?"
+                onClick={depressaoToast}
+              />
               <h3>Será que estou com depressão?</h3>
               <p>por Pepia App</p>
             </a>
