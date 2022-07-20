@@ -1,6 +1,6 @@
-import image1 from "../../assets/images/carousel/Wellness App (6) 1.svg";
-import image2 from "../../assets/images/carousel/49 1.svg";
-import image3 from "../../assets/images/carousel/50 2.svg";
+import image1 from "../../assets/images/carousel/Wellness App (6) 1.png";
+import image2 from "../../assets/images/carousel/49 1.png";
+import image3 from "../../assets/images/carousel/50 2.png";
 import styles from "./styles.module.css";
 import { toast, Toaster } from "react-hot-toast";
 
